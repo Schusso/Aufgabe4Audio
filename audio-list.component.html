@@ -4,7 +4,12 @@
     <sd-multiple-file-upload
       [description]="'Beschreibung'"
       [title]="'Titel'"
-      [url]="'SERVER-URL'"
+      [url]="'http://localhost:4000/api/audio'"
     ></sd-multiple-file-upload>
   </div>
+  <video controls >
+    <source type="audio/mp3" src="/Modul152.mp3" >
+    <track label="Deutsch" kind="subtitles" srclang="de" src="/Subtitle.vtt" default>
+  </video>
+
 </div>
